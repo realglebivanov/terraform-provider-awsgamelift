@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
-	"github.com/terraform-providers/terraform-provider-aws/aws"
+	"github.com/realglebivanov/terraform-provider-aws/aws"
 )
 
 func main() {
@@ -18,7 +18,7 @@ func main() {
 	opts := &plugin.ServeOpts{ProviderFunc: aws.Provider}
 
 	if debugMode {
-		err := plugin.Debug(context.Background(), "registry.terraform.io/hashicorp/aws", opts)
+		err := plugin.Debug(context.Background(), "registry.terraform.io/realglebivanov/terraform-provider-aws", opts)
 
 		if err != nil {
 			log.Fatal(err.Error())

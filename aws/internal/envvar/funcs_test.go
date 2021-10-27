@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/envvar"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/envvar"
 )
 
 func TestGetWithDefault(t *testing.T) {

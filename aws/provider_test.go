@@ -23,9 +23,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/structure"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/envvar"
-	organizationsfinder "github.com/terraform-providers/terraform-provider-aws/aws/internal/service/organizations/finder"
-	stsfinder "github.com/terraform-providers/terraform-provider-aws/aws/internal/service/sts/finder"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/envvar"
+	organizationsfinder "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/organizations/finder"
+	stsfinder "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/sts/finder"
 )
 
 const (

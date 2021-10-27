@@ -11,8 +11,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/rds"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/hashcode"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/keyvaluetags"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/hashcode"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
 )
 
 func resourceAwsDbParameterGroup() *schema.Resource {
@@ -199,7 +199,7 @@ func resourceAwsDbParameterGroupRead(d *schema.ResourceData, meta interface{}) e
 		// "engine-default". We need to set the union of all "user" Source parameters
 		// _and_ the "system"/"engine-default" Source parameters _that appear in the
 		// config_ in the state, or the user gets a perpetual diff. See
-		// terraform-providers/terraform-provider-aws#593 for more context and details.
+		// realglebivanov/terraform-provider-aws#593 for more context and details.
 		confParams := expandParameters(configParams.List())
 		for _, param := range parameters {
 			if param.Source == nil || param.ParameterName == nil {

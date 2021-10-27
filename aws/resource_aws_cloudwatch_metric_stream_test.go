@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/service/cloudwatch/waiter"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/cloudwatch/waiter"
 )
 
 func init() {
@@ -429,10 +429,10 @@ resource "aws_iam_role_policy" "firehose_to_s3" {
                 "s3:ListBucket",
                 "s3:ListBucketMultipartUploads",
                 "s3:PutObject"
-            ],      
-            "Resource": [        
+            ],
+            "Resource": [
                 "${aws_s3_bucket.bucket.arn}",
-                "${aws_s3_bucket.bucket.arn}/*"		    
+                "${aws_s3_bucket.bucket.arn}/*"
             ]
         }
     ]

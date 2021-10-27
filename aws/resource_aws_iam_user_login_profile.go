@@ -15,9 +15,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/encryption"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/service/ec2/waiter"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/tfresource"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/encryption"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/ec2/waiter"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/tfresource"
 )
 
 func resourceAwsIamUserLoginProfile() *schema.Resource {

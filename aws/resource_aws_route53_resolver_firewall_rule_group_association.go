@@ -9,9 +9,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/keyvaluetags"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/service/route53resolver/finder"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/service/route53resolver/waiter"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/route53resolver/finder"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/route53resolver/waiter"
 )
 
 func resourceAwsRoute53ResolverFirewallRuleGroupAssociation() *schema.Resource {

@@ -11,9 +11,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	tfapprunner "github.com/terraform-providers/terraform-provider-aws/aws/internal/service/apprunner"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/service/apprunner/finder"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/service/apprunner/waiter"
+	tfapprunner "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/apprunner"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/apprunner/finder"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/apprunner/waiter"
 )
 
 func resourceAwsAppRunnerCustomDomainAssociation() *schema.Resource {

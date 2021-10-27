@@ -5,7 +5,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/route53"
-	tfroute53 "github.com/terraform-providers/terraform-provider-aws/aws/internal/service/route53"
+	tfroute53 "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/route53"
 )
 
 func HostedZoneDnssec(conn *route53.Route53, hostedZoneID string) (*route53.GetDNSSECOutput, error) {

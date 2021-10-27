@@ -8,9 +8,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	tfschemas "github.com/terraform-providers/terraform-provider-aws/aws/internal/service/schemas"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/service/schemas/finder"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/tfresource"
+	tfschemas "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/schemas"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/schemas/finder"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/tfresource"
 )
 
 const (
@@ -327,7 +327,7 @@ resource "aws_schemas_schema" "test" {
 }
 
 func testAccAWSSchemasSchemaConfigTags2(rName, tagKey1, tagValue1, tagKey2, tagValue2 string) string {
-	return fmt.Sprintf(`	
+	return fmt.Sprintf(`
 resource "aws_schemas_registry" "test" {
   name = %[1]q
 }

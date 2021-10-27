@@ -3,7 +3,7 @@ package finder
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/glue"
-	tfglue "github.com/terraform-providers/terraform-provider-aws/aws/internal/service/glue"
+	tfglue "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/glue"
 )
 
 // TableByName returns the Table corresponding to the specified name.
