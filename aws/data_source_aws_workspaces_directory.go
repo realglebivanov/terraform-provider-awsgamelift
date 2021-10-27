@@ -5,8 +5,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/workspaces"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/keyvaluetags"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/service/workspaces/waiter"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/workspaces/waiter"
 )
 
 func dataSourceAwsWorkspacesDirectory() *schema.Resource {

@@ -18,11 +18,11 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/keyvaluetags"
-	tfelasticache "github.com/terraform-providers/terraform-provider-aws/aws/internal/service/elasticache"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/service/elasticache/finder"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/service/elasticache/waiter"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/tfresource"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
+	tfelasticache "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/elasticache"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/elasticache/finder"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/elasticache/waiter"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/tfresource"
 )
 
 func resourceAwsElasticacheReplicationGroup() *schema.Resource {

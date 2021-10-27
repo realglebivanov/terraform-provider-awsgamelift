@@ -3,7 +3,7 @@ package finder
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/route53resolver"
-	tfroute53resolver "github.com/terraform-providers/terraform-provider-aws/aws/internal/service/route53resolver"
+	tfroute53resolver "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/route53resolver"
 )
 
 // ResolverQueryLogConfigAssociationByID returns the query logging configuration association corresponding to the specified ID.

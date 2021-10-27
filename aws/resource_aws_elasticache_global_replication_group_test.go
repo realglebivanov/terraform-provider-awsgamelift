@@ -15,9 +15,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/service/elasticache/finder"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/service/elasticache/waiter"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/tfresource"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/elasticache/finder"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/elasticache/waiter"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/tfresource"
 )
 
 func init() {
@@ -538,7 +538,7 @@ resource "aws_vpc" "%[1]s" {
 
 resource "aws_subnet" "%[1]s" {
   provider = %[2]s
-	
+
   vpc_id            = aws_vpc.%[1]s.id
   cidr_block        = "192.168.0.0/20"
   availability_zone = data.aws_availability_zones.%[1]s.names[0]
@@ -550,7 +550,7 @@ resource "aws_subnet" "%[1]s" {
 
 resource "aws_elasticache_subnet_group" "%[1]s" {
   provider = %[2]s
-	
+
   name        = %[3]q
   description = "tf-test-cache-subnet-group-descr"
 

@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/service/cognitoidentityprovider/finder"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/cognitoidentityprovider/finder"
 )
 
 func TestAccAWSCognitoUserPoolUICustomization_AllClients_CSS(t *testing.T) {
@@ -577,7 +577,7 @@ resource "aws_cognito_user_pool_ui_customization" "test" {
   css = %q
 
   # Refer to the aws_cognito_user_pool_domain resource's
-  # user_pool_id attribute to ensure it is in an 'Active' state 
+  # user_pool_id attribute to ensure it is in an 'Active' state
   user_pool_id = aws_cognito_user_pool_domain.test.user_pool_id
 }
 `, rName, css)
@@ -598,7 +598,7 @@ resource "aws_cognito_user_pool_ui_customization" "test" {
   image_file = filebase64(%q)
 
   # Refer to the aws_cognito_user_pool_domain resource's
-  # user_pool_id attribute to ensure it is in an 'Active' state 
+  # user_pool_id attribute to ensure it is in an 'Active' state
   user_pool_id = aws_cognito_user_pool_domain.test.user_pool_id
 }
 `, rName, filename)
@@ -620,7 +620,7 @@ resource "aws_cognito_user_pool_ui_customization" "test" {
   image_file = filebase64(%q)
 
   # Refer to the aws_cognito_user_pool_domain resource's
-  # user_pool_id attribute to ensure it is in an 'Active' state 
+  # user_pool_id attribute to ensure it is in an 'Active' state
   user_pool_id = aws_cognito_user_pool_domain.test.user_pool_id
 }
 `, rName, css, filename)
@@ -647,7 +647,7 @@ resource "aws_cognito_user_pool_ui_customization" "test" {
   css       = %q
 
   # Refer to the aws_cognito_user_pool_domain resource's
-  # user_pool_id attribute to ensure it is in an 'Active' state 
+  # user_pool_id attribute to ensure it is in an 'Active' state
   user_pool_id = aws_cognito_user_pool_domain.test.user_pool_id
 }
 `, rName, css)

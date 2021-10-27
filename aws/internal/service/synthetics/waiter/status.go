@@ -6,7 +6,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/synthetics"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/terraform-providers/terraform-provider-aws/aws/internal/service/synthetics/finder"
+	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/synthetics/finder"
 )
 
 func CanaryStatus(conn *synthetics.Synthetics, name string) resource.StateRefreshFunc {
