@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/lakeformation"
 	"github.com/hashicorp/aws-sdk-go-base/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/hashcode"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/hashcode"
 )
 
 func dataSourceAwsLakeFormationDataLakeSettings() *schema.Resource {

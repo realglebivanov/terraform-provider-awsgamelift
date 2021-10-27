@@ -18,10 +18,10 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
 	"github.com/mitchellh/copystructure"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/experimental/nullable"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/hashcode"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/mq/waiter"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/experimental/nullable"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/hashcode"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/mq/waiter"
 )
 
 func resourceAwsMqBroker() *schema.Resource {

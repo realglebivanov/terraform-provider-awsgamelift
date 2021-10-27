@@ -13,8 +13,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	tfsagemaker "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/sagemaker"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/sagemaker/waiter"
+	tfsagemaker "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/sagemaker"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/sagemaker/waiter"
 )
 
 func init() {

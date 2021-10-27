@@ -10,9 +10,9 @@ import (
 	"github.com/hashicorp/aws-sdk-go-base/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	tfamplify "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/amplify"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/amplify/finder"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/tfresource"
+	tfamplify "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/amplify"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/amplify/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/tfresource"
 )
 
 func resourceAwsAmplifyBackendEnvironment() *schema.Resource {

@@ -8,8 +8,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	tfec2 "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/ec2"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/ec2/finder"
+	tfec2 "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/ec2"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/ec2/finder"
 )
 
 func testAccAwsEc2ClientVpnRoute_basic(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	events "github.com/aws/aws-sdk-go/service/cloudwatchevents"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
 )
 
 func resourceAwsCloudWatchEventBus() *schema.Resource {

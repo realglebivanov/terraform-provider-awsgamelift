@@ -12,9 +12,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/structure"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
-	iamwaiter "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/iam/waiter"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/kms/waiter"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
+	iamwaiter "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/iam/waiter"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/kms/waiter"
 )
 
 func resourceAwsKmsKey() *schema.Resource {

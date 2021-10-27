@@ -5,7 +5,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/cloudwatchlogs"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/cloudwatchlogs/lister"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/cloudwatchlogs/lister"
 )
 
 func QueryDefinition(ctx context.Context, conn *cloudwatchlogs.CloudWatchLogs, name, queryDefinitionID string) (*cloudwatchlogs.QueryDefinition, error) {

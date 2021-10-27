@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/cloudhsmv2"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/cloudhsmv2/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/cloudhsmv2/finder"
 )
 
 func TestAccAWSCloudHsmV2Hsm_basic(t *testing.T) {

@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/secretsmanager"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/structure"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
 )
 
 func dataSourceAwsSecretsManagerSecret() *schema.Resource {

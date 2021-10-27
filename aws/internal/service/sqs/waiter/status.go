@@ -3,8 +3,8 @@ package waiter
 import (
 	"github.com/aws/aws-sdk-go/service/sqs"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/sqs/finder"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/tfresource"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/sqs/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/tfresource"
 )
 
 func QueueState(conn *sqs.SQS, url string) resource.StateRefreshFunc {

@@ -9,8 +9,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/glue"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/glue/waiter"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/glue/waiter"
 )
 
 func resourceAwsGlueMLTransform() *schema.Resource {

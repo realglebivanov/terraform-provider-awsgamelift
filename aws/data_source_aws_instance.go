@@ -10,9 +10,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws/arn"
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/hashcode"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
-	tfiam "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/iam"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/hashcode"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
+	tfiam "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/iam"
 )
 
 func dataSourceAwsInstance() *schema.Resource {

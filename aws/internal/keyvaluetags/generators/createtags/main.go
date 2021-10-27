@@ -11,7 +11,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
 )
 
 const filename = `create_tags_gen.go`
@@ -97,7 +97,7 @@ import (
 {{- end }}
 	"github.com/hashicorp/aws-sdk-go-base/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/tfresource"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/tfresource"
 )
 
 const EventualConsistencyTimeout = 5 * time.Minute

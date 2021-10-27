@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/cloudwatch/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/cloudwatch/finder"
 )
 
 func TestAccAWSCloudWatchMetricAlarm_basic(t *testing.T) {

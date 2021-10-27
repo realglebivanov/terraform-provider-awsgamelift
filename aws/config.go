@@ -173,8 +173,8 @@ import (
 	awsbase "github.com/hashicorp/aws-sdk-go-base"
 	"github.com/hashicorp/aws-sdk-go-base/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/logging"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
-	"github.com/realglebivanov/terraform-provider-aws/version"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/version"
 )
 
 type Config struct {

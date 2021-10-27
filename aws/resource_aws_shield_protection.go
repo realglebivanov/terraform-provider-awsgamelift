@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/shield"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
 )
 
 func resourceAwsShieldProtection() *schema.Resource {

@@ -4,7 +4,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/macie2"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/macie2/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/macie2/finder"
 )
 
 // MemberRelationshipStatus fetches the Member and its relationship status

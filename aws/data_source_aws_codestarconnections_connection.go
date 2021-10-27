@@ -5,8 +5,8 @@ import (
 	"log"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/codestarconnections/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/codestarconnections/finder"
 )
 
 func dataSourceAwsCodeStarConnectionsConnection() *schema.Resource {

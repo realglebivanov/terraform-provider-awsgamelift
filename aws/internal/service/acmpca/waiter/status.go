@@ -5,7 +5,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/acmpca"
 	"github.com/hashicorp/aws-sdk-go-base/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/acmpca/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/acmpca/finder"
 )
 
 const (

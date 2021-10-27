@@ -10,10 +10,10 @@ import (
 	"github.com/hashicorp/aws-sdk-go-base/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	tfec2 "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/ec2"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/ec2/finder"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/ec2/waiter"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/tfresource"
+	tfec2 "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/ec2"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/ec2/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/ec2/waiter"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/tfresource"
 )
 
 func resourceAwsNetworkInterfaceSGAttachment() *schema.Resource {

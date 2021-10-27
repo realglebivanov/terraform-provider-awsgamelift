@@ -15,13 +15,13 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/structure"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/attrmap"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/naming"
-	tfsqs "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/sqs"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/sqs/finder"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/sqs/waiter"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/tfresource"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/attrmap"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/naming"
+	tfsqs "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/sqs"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/sqs/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/sqs/waiter"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/tfresource"
 )
 
 var (

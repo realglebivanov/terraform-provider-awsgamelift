@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/kafka"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/kafka/waiter"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/kafka/waiter"
 )
 
 func resourceAwsMskConfiguration() *schema.Resource {

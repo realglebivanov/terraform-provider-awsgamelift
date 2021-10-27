@@ -4,8 +4,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	events "github.com/aws/aws-sdk-go/service/cloudwatchevents"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/cloudwatchevents/finder"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/tfresource"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/cloudwatchevents/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/tfresource"
 )
 
 func ConnectionState(conn *events.CloudWatchEvents, name string) resource.StateRefreshFunc {

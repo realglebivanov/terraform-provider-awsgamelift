@@ -15,7 +15,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/hashcode"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/hashcode"
 )
 
 func resourceAwsSecurityGroupRule() *schema.Resource {

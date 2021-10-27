@@ -11,8 +11,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
-	tfservicecatalog "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/servicecatalog"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
+	tfservicecatalog "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/servicecatalog"
 )
 
 func resourceAwsServiceCatalogPortfolio() *schema.Resource {

@@ -9,9 +9,9 @@ import (
 	"github.com/hashicorp/aws-sdk-go-base/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/sqs/finder"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/sqs/waiter"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/tfresource"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/sqs/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/sqs/waiter"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/tfresource"
 )
 
 var (

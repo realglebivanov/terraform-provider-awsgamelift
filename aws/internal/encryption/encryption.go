@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/vault/helper/pgpkeys"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/vault/helper/pgpkeys"
 )
 
 // RetrieveGPGKey returns the PGP key specified as the pgpKey parameter, or queries

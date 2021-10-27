@@ -8,7 +8,7 @@ import (
 
 	cleanhttp "github.com/hashicorp/go-cleanhttp"
 	"github.com/keybase/go-crypto/openpgp"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/vault/sdk/helper/jsonutil"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/vault/sdk/helper/jsonutil"
 )
 
 const (

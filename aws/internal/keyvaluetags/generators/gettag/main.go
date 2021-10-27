@@ -11,7 +11,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
 )
 
 const filename = `get_tag_gen.go`

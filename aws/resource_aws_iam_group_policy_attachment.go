@@ -10,9 +10,9 @@ import (
 	"github.com/hashicorp/aws-sdk-go-base/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/iam/finder"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/iam/waiter"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/tfresource"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/iam/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/iam/waiter"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/tfresource"
 )
 
 func resourceAwsIamGroupPolicyAttachment() *schema.Resource {

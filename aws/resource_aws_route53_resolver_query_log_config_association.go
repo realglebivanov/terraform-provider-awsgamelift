@@ -7,8 +7,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/route53resolver"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/route53resolver/finder"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/route53resolver/waiter"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/route53resolver/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/route53resolver/waiter"
 )
 
 func resourceAwsRoute53ResolverQueryLogConfigAssociation() *schema.Resource {

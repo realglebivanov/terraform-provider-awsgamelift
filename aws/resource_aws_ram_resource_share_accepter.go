@@ -11,8 +11,8 @@ import (
 	"github.com/hashicorp/aws-sdk-go-base/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/ram/finder"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/ram/waiter"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/ram/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/ram/waiter"
 )
 
 func resourceAwsRamResourceShareAccepter() *schema.Resource {

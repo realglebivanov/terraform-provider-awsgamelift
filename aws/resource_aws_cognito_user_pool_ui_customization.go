@@ -11,7 +11,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/cognitoidentityprovider"
 	"github.com/hashicorp/aws-sdk-go-base/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/cognitoidentityprovider/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/cognitoidentityprovider/finder"
 )
 
 func resourceAwsCognitoUserPoolUICustomization() *schema.Resource {

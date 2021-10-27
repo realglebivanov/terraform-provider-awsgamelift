@@ -13,9 +13,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/naming"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/cloudwatch/waiter"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/naming"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/cloudwatch/waiter"
 )
 
 func resourceAwsCloudWatchMetricStream() *schema.Resource {

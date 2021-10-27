@@ -11,10 +11,10 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	tfglobalaccelerator "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/globalaccelerator"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/globalaccelerator/finder"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/globalaccelerator/waiter"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/tfresource"
+	tfglobalaccelerator "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/globalaccelerator"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/globalaccelerator/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/globalaccelerator/waiter"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/tfresource"
 )
 
 func resourceAwsGlobalAcceleratorEndpointGroup() *schema.Resource {

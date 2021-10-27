@@ -11,10 +11,10 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/customdiff"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
-	tfec2 "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/ec2"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/ec2/finder"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/ec2/waiter"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
+	tfec2 "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/ec2"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/ec2/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/ec2/waiter"
 )
 
 func resourceAwsEc2ManagedPrefixList() *schema.Resource {

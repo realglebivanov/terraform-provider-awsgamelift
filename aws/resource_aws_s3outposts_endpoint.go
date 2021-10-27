@@ -11,8 +11,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3outposts"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/s3outposts/finder"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/s3outposts/waiter"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/s3outposts/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/s3outposts/waiter"
 )
 
 func resourceAwsS3OutpostsEndpoint() *schema.Resource {

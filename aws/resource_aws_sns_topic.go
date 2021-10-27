@@ -14,9 +14,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/structure"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/naming"
-	tfsns "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/sns"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/naming"
+	tfsns "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/sns"
 )
 
 func resourceAwsSnsTopic() *schema.Resource {

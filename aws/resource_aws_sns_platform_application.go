@@ -12,7 +12,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/sns"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	iamwaiter "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/iam/waiter"
+	iamwaiter "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/iam/waiter"
 )
 
 var snsPlatformRequiresPlatformPrincipal = map[string]bool{

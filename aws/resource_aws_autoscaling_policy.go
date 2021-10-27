@@ -12,8 +12,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/autoscaling"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/experimental/nullable"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/hashcode"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/experimental/nullable"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/hashcode"
 )
 
 func resourceAwsAutoscalingPolicy() *schema.Resource {

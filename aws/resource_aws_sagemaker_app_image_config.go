@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/sagemaker"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/sagemaker/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/sagemaker/finder"
 )
 
 func resourceAwsSagemakerAppImageConfig() *schema.Resource {

@@ -9,9 +9,9 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	tfamplify "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/amplify"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/amplify/finder"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/tfresource"
+	tfamplify "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/amplify"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/amplify/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/tfresource"
 )
 
 func testAccAWSAmplifyBackendEnvironment_basic(t *testing.T) {

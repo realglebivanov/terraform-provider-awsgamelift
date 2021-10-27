@@ -12,8 +12,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	tfevents "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/cloudwatchevents"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/cloudwatchevents/finder"
+	tfevents "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/cloudwatchevents"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/cloudwatchevents/finder"
 )
 
 func resourceAwsCloudWatchEventTarget() *schema.Resource {

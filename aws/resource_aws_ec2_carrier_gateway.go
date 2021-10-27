@@ -9,10 +9,10 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/hashicorp/aws-sdk-go-base/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/keyvaluetags"
-	tfec2 "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/ec2"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/ec2/finder"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/ec2/waiter"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/keyvaluetags"
+	tfec2 "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/ec2"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/ec2/finder"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/ec2/waiter"
 )
 
 func resourceAwsEc2CarrierGateway() *schema.Resource {

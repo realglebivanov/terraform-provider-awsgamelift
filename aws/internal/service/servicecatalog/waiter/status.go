@@ -7,8 +7,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/servicecatalog"
 	"github.com/hashicorp/aws-sdk-go-base/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	tfservicecatalog "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/servicecatalog"
-	"github.com/realglebivanov/terraform-provider-aws/aws/internal/service/servicecatalog/finder"
+	tfservicecatalog "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/servicecatalog"
+	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/servicecatalog/finder"
 )
 
 func ProductStatus(conn *servicecatalog.ServiceCatalog, acceptLanguage, productID string) resource.StateRefreshFunc {

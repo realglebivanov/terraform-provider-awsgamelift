@@ -7,8 +7,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/hashicorp/aws-sdk-go-base/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	tfnet "github.com/realglebivanov/terraform-provider-aws/aws/internal/net"
-	tfec2 "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/ec2"
+	tfnet "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/net"
+	tfec2 "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/ec2"
 )
 
 // CarrierGatewayByID returns the carrier gateway corresponding to the specified identifier.

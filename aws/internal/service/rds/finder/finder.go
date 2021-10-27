@@ -3,7 +3,7 @@ package finder
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/rds"
-	tfrds "github.com/realglebivanov/terraform-provider-aws/aws/internal/service/rds"
+	tfrds "github.com/realglebivanov/terraform-provider-aws-gamelift/aws/internal/service/rds"
 )
 
 // DBProxyTarget returns matching DBProxyTarget.
