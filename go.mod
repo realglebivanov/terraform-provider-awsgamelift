@@ -1,4 +1,4 @@
-module github.com/realglebivanov/terraform-provider-aws-gamelift
+module github.com/realglebivanov/terraform-provider-awsgamelift
 
 go 1.16
 

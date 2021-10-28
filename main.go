@@ -6,19 +6,19 @@ import (
 	"log"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/plugin"
-	"github.com/realglebivanov/terraform-provider-aws-gamelift/aws"
+	"github.com/realglebivanov/terraform-provider-awsgamelift/ag"
 )
 
 func main() {
 	var debugMode bool
 
-	flag.BoolVar(&debugMode, "debug", false, "set to true to run the provider with support for debuggers like delve")
+	flag.BoolVar(&debugMode, "debug", true, "set to true to run the provider with support for debuggers like delve")
 	flag.Parse()
 
-	opts := &plugin.ServeOpts{ProviderFunc: aws.Provider}
+	opts := &plugin.ServeOpts{ProviderFunc: ag.Provider}
 
 	if debugMode {
-		err := plugin.Debug(context.Background(), "registry.terraform.io/realglebivanov/aws-gamelift", opts)
+		err := plugin.Debug(context.Background(), "registry.terraform.io/realglebivanov/awsgamelift", opts)
 
 		if err != nil {
 			log.Fatal(err.Error())
