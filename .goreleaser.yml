@@ -16,11 +16,11 @@ builds:
   ldflags:
     - '-s -w -X main.version={{.Version}} -X main.commit={{.Commit}}'
   goos:
-    - windows
     - linux
+    - darwin
+    - windows
   goarch:
     - amd64
-    - '386'
   binary: '{{ .ProjectName }}_v{{ .Version }}'
 archives:
 - format: zip
